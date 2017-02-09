@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/datepicker.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+ 	<title>Cashier (Full Time, Atlanta)</title>
+
+</head>
+<body>
+
+
+<div id="nav_bar">
+	
+  <div id="job_desc">
+    	<h8 class="text-center">Cashier (Full Time, Atlanta)</h8>
+  </div>
+
+	<div id="header_icons">
+
+		<div id="logo">
+			<img src="img/hd_logo.png" width="33" height="33" alt="The Home Depot">
+		</div>
+
+		<div id="menu_btn">
+			<img src="img/menu_down.png" width="31" height="25" alt="Menu">
+		
+    </div>
+	
+  </div>
+</div>
+
+
+<div id="savesubmit">
+
+  <div id="save">
+
+  <!-- Save My Place trigger modal -->
+  <a data-toggle="modal" data-target="#myModal">
+    <img src="img/save_btn.png" width="81" height="34">
+  </a>
+
+  <!-- Modal -->
+  	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	<div class="modal-dialog">
+      	<div class="modal-content">
+        	<div class="modal-header">
+          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          	<h4 class="modal-title text-center" id="myModalLabel">Application Saved!</h4>
+       	 </div>
+        	<div class="modal-body">
+          <p class="text-center">You can return and finish this application 
+whenever you want, just follow the link we sent to the email address you provided.</p>
+        	</div>
+        	<div class="modal-footer">
+          	<button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Exit</button>
+          	<button type="button" class="btn btn-success btn-lg">Continue</button>
+        	</div>
+      	</div><!-- /.modal-content -->
+    	</div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  </div>
+
+  <div id="submit">
+    <a href="submit_confirm.html">
+    <img src="img/submit.png" width="81" height="34"> 
+    </a>
+  </div>
+
+</div>
+</div>
+
+
+<div id="glow_wrap">
+    <div id="glow">
+      <img src="img/glow80.png" class="img-responsive" "center-block">
+    </div> 
+</div>
+
+
+<div id="sections">
+
+  <img src="img/btn_group_self_identify.png" class="img-responsive" usemap="#btn_group" hidefocus="true" border=0>
+    <map name="btn_group">
+      <area shape="rect" coords="93,90,189,184" href="disclaimer.html"  alt="" title="">
+      <area shape="rect" coords="2,0,94,89" href="contact.html"  alt="" title="">
+      <area shape="rect" coords="93,0,188,88" href="address.html"  alt="" title="">
+      <area shape="rect" coords="0,89,92,182" href="questions.html"  alt="" title="">
+      <area shape="rect" coords="188,0,282,91" href="education.html"  alt="" title="">
+      <area shape="rect" coords="189,90,281,184" href="availability.html"  alt="" title="">
+      <area shape="rect" coords="283,0,377,90" href="employment.html"  alt="" title="">
+      <area shape="rect" coords="281,90,377,183" href="identify.html"  alt="" title="">
+    </map>
+
+  <div id="edit_wrap">
+
+    <div id="editor"
+      <div class="container">
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+
+          <div class="col-lg-10">
+            <select id="basic" class="selectpicker show-tick form-control">
+              <option>Email | JohnDoe@gmail.com</option>
+              <option data-subtext="option subtext">First Name | Arthur</option>
+              <option data-subtext="option subtext">Last Name | Doe</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="edit">
+      <img src="img/edit_button.png" width="37" height="37"
+        alt="">
+      <div id="menu_window"></div> 
+      </div> 
+
+  </div>
+</div>
+
+
+<div id="form">
+	
+
+<div id="field_wrap">
+    <div id="field_label">
+      <h10 class="text-center">Are you a protected veteran?</h10>
+    </div>
+
+  <div id="dropdown">
+        <div class="container">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+
+            <div class="col-lg-10">
+              <select id="basic" class="selectpicker show-tick form-control">
+                <option>Yes</option>
+                <option data-subtext="option subtext">No</option>
+                <option data-subtext="option subtext">I don't wish to answer</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+
+</br>
+</br>
+
+ <div id="field_wrap">
+    <div id="field_label">
+      <h10 class="text-center">What is your gender?</h10>
+    </div>
+
+  <div id="dropdown">
+        <div class="container">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+
+            <div class="col-lg-10">
+              <select id="basic" class="selectpicker show-tick form-control">
+                <option>Male</option>
+                <option data-subtext="option subtext">Female</option>
+                <option data-subtext="option subtext">I don't wish to answer</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+
+</br>
+</br>
+
+<div id="field_wrap">
+    <div id="field_label">
+      <h10 class="text-center">What is your primary Race / Ethnic Background?</h10>
+    </div>
+
+  <div id="dropdown">
+        <div class="container">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+
+            <div class="col-lg-10">
+              <select id="basic" class="selectpicker show-tick form-control">
+                <option>Caucasian</option>
+                <option data-subtext="option subtext">Hispanic</option>
+                <option data-subtext="option subtext">Asian</option>
+                <option data-subtext="option subtext">African American</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+
+</br>
+</br>
+
+<div id="button_wrap">
+
+
+    <div id="prev">
+      <a href="availability.html">
+      <button type="button" class="btn btn-custom btn-lg">
+        <span class="glyphicon glyphicon-arrow-left"></span> Previous
+      </button>
+      </a>
+    </div>
+
+    <div id="next">
+      <a href="submit_confirm.html">
+      <button type="button" class="btn btn-custom btn-lg">
+        Next <span class="glyphicon glyphicon-arrow-right"></span> 
+      </button>
+      </a>
+    </div>
+
+  </div>  
+
+</div>
+
+
+  <!-- Javascript -->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#example-getting-started').multiselect();
+    });
+</script>
+
+<script>
+  var swapImage = 1;
+
+  function ex1(){
+          if (swapImage == 1){
+              swapImage = 2;
+              $('#example1').attr('src', 'img/radio_example_down.png');
+              $('#example2').attr('src', 'img/radio_example_up.png');
+              $('#example3').attr('src', 'img/radio_example_up.png');
+          }else if (swapImage == 2){
+              swapImage = 1;
+              $('#example1').attr('src', 'img/radio_example_up.png');
+          }
+  }    
+</script>
+
+<script>
+  var swapImage = 1;
+
+  function ex2(){
+          if (swapImage == 1){
+              swapImage = 2;
+              $('#example1').attr('src', 'img/radio_example_up.png');
+              $('#example2').attr('src', 'img/radio_example_down.png');
+              $('#example3').attr('src', 'img/radio_example_up.png');
+          }else if (swapImage == 2){
+              swapImage = 1;
+              $('#example2').attr('src', 'img/radio_example_up.png');
+          }
+  }    
+</script>
+
+<script>
+  var swapImage = 1;
+
+  function ex3(){
+          if (swapImage == 1){
+              swapImage = 2;
+              $('#example1').attr('src', 'img/radio_example_up.png');
+              $('#example2').attr('src', 'img/radio_example_up.png');
+              $('#example3').attr('src', 'img/radio_example_down.png');
+          }else if (swapImage == 2){
+              swapImage = 1;
+              $('#example3').attr('src', 'img/radio_example_up.png');
+          }
+  }    
+</script>
+
+<script>
+  var swapImage = 1;
+
+  function nodown(){
+          if (swapImage == 1){
+              swapImage = 2;
+              $('#picture').attr('src', 'img/radio_no_down.png');
+              $('#yespicture').attr('src', 'img/radio_yes_up.png');
+          }else if (swapImage == 2){
+              swapImage = 1;
+              $('#picture').attr('src', 'img/radio_no_up.png');
+          }
+  }    
+</script>
+
+<script>
+  var swapImage = 1;
+
+  function yesdown(){
+          if (swapImage == 1){
+              swapImage = 2;
+              $('#yespicture').attr('src', 'img/radio_yes_down.png');
+              $('#picture').attr('src', 'img/radio_no_up.png');
+          }else if (swapImage == 2){
+              swapImage = 1;
+              $('#yespicture').attr('src', 'img/radio_yes_up.png');
+          }
+  }    
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="js/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.rwdImageMaps.min.js"></script>
+<script>$(document).ready(function(e) {$('img[usemap]').rwdImageMaps();});</script>
+
+</body>
+</html>
